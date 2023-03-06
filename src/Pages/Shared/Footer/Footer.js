@@ -8,7 +8,8 @@ import Wave from 'react-wavify'
 const Footer = () => {
     return (
     <div>
-      <Wave fill='#1C4969'
+      {/* B5D8DC */}
+      <Wave fill='#1b5b8a' 
         paused={false}
         options={{
           height: 80,

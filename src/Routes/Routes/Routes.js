@@ -5,9 +5,10 @@ import Main from "../../Layout/Main";
 // import Features from "../../Pages/Features/Features";
 import Home from "../../Pages/Home/Home/Home";
 import Login from "../../Pages/Login/Login";
+import Logini from "../../Pages/Logini/Logini";
 // import Orders from "../../Pages/Orders/Orders";
 // import ShopMore from "../../Pages/ShopMore/ShopMore";
-// import SignUp from "../../Pages/SignUp/SignUp";
+import SignUp from "../../Pages/SignUp/SignUp";
 // import Started from "../../Pages/Started/Started";
 
 // const { createBrowserRouter } = require("react-router-dom");
@@ -23,17 +24,17 @@ const router= createBrowserRouter([
         },
         {
           path:'/login',
+          element:<Logini></Logini>
+        },
+        {
+          path:'/aboutUs',
           element:<Login></Login>
         },
-    //     {
-    //       path:'/aboutUs',
-    //       element:<Login></Login>
-    //     },
 
-    //     {
-    //       path:'/signup',
-    //       element:<SignUp></SignUp>
-    //     },
+        {
+          path:'/signup',
+          element:<SignUp></SignUp>
+        },
     //     {
     //       path:'/checkout/:id',
     //       element:<Checkout></Checkout>,
