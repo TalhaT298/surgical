@@ -1,12 +1,34 @@
 import React from "react";
-
+import { Typewriter } from 'react-simple-typewriter';
+import background from "../Home/Untitled design (96).png";
 const Message = () => {
   return (
     <section className="">
-      <div className="hero min-h-screen">
+      <div className="hero min-h-screen mt-8 mb-10"
+         style={{
+           background: `url(${background})`,
+         }}
+       >
+      
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="text-center lg:text-left w-1/2">
-            <h1 className="text-5xl font-bold">Login now!</h1>
+            <h1 className="text-5xl font-bold text-center">
+            <span style={{ color: 'black', fontWeight: 'bold' }}>
+          {/* Style will be inherited from the parent element */}
+          <Typewriter
+            words={['Login Now', 'Login Here']}
+            loop={20}
+            cursor
+            cursorStyle='🔒'
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+
+          />
+        </span>
+            
+            </h1>
+            
             <p className="py-6">
             Please enter your login credentials to access the site. If you don't have an account yet, you can easily create one by clicking on the 'Sign Up' button.
             </p>

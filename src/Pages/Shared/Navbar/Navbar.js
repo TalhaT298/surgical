@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { FaHome } from 'react-icons/fa';
 import { FaModx } from 'react-icons/fa';
 import { AiOutlineLogin } from 'react-icons/ai';
+import { GiBuyCard } from 'react-icons/gi';
+
 import logo  from '../../../assets/Untitled design (82).png';
 
 const Navbar = () => {
@@ -34,7 +36,7 @@ const Navbar = () => {
              <Link to="/"><FaHome size='2rem' color="1B5B8A"/>Home</Link>
             </li>
             <li>
-              <Link to="/appointment">Appointment</Link>
+              <Link to="/appointment"><GiBuyCard size='2rem' color="1B5B8A"/>Quick Buy</Link>
             </li>
             <li>
               <Link to="/about"><FaModx size='2rem' color="1B5B8A"/>About</Link>
@@ -48,13 +50,16 @@ const Navbar = () => {
         <img src={logo} alt='' />
     </Link>
       </div>
+      <div className="form-control">
+      <input type="text" placeholder="Search" className="input input-bordered" />
+    </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
         <li>
             <Link to="/"><FaHome size='2rem' color="1B5B8A"/>Home</Link>
             </li>
             <li>
-              <a>Appointment</a>
+            <Link to="/"><GiBuyCard size='2rem' color="1B5B8A"/>Quick Buy</Link>
             </li>
             <li>
             <Link to="/about"><FaModx size='2rem' color="1B5B8A"/>About</Link>

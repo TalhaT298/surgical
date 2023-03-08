@@ -9,7 +9,7 @@ const Footer = () => {
     return (
     <div>
       {/* B5D8DC */}
-      <Wave fill='#1b5b8a' 
+      <Wave fill='#144e74' 
         paused={false}
         options={{
           height: 80,
