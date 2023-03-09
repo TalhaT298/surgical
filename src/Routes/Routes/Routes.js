@@ -1,4 +1,3 @@
-
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../../Layout/Main";
 // import Checkout from "../../Pages/Checkout/Checkout";
@@ -16,60 +15,61 @@ import SignUp from "../../Pages/SignUp/SignUp";
 
 // const { createBrowserRouter } = require("react-router-dom");
 
-const router= createBrowserRouter([
-    {
-      path:'/',
-      element:<Main></Main>,
-      children:[
-        {
-            path:'/',
-            element:<Home></Home>
-        },
-        {
-          path:'/login',
-          element:<Logini></Logini>
-        },
-        {
-          path:'/aboutUs',
-          element:<Login></Login>
-        },
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Main></Main>,
+    children: [
+      {
+        path: "/",
+        element: <Home></Home>,
+      },
+      {
+        path: "/login",
+        element: <Logini></Logini>,
+      },
+      {
+        path: "/aboutUs",
+        element: <Login></Login>,
+      },
 
-        {
-          path:'/signup',
-          element:<SignUp></SignUp>
-        },
-        {
-          path:'/checkout/:id',
-          element:<Mainout></Mainout>,
-          loader:({params})=> fetch(`http://localhost:5000/services/${params.id}`)
-        },
-        {
-          path:'orders',
-          element:<Orderi></Orderi>
-        },
-        // {
-        //   path:'/checkout/:id',
-        //   element:<Checkout></Checkout>,
-        //   loader:({params})=> fetch(`https://localhost:5000/services/${params.id}`)
-        // },
-        // {
-        //   path:'orders',
-        //   element: <Orders></Orders>
-        // },
-    //     {
-    //       path:'features',
-    //       element:<Features></Features>
-    //     },
-    //     {
-    //       path:'started',
-    //       element:<Started></Started>
-    //     },
-        {
-          path:'shopmore',
-          element:<ShopMore></ShopMore>
-        }
-      ]
-    }
-  ]);
+      {
+        path: "/signup",
+        element: <SignUp></SignUp>,
+      },
+      {
+        path: "/checkout/:id",
+        element: <Mainout></Mainout>,
+        loader: ({ params }) =>
+          fetch(`https://surgical-server.vercel.app/services/${params.id}`),
+      },
+      {
+        path: "orders",
+        element: <Orderi></Orderi>,
+      },
+      // {
+      //   path:'/checkout/:id',
+      //   element:<Checkout></Checkout>,
+      //   loader:({params})=> fetch(`https://localhost:5000/services/${params.id}`)
+      // },
+      // {
+      //   path:'orders',
+      //   element: <Orders></Orders>
+      // },
+      //     {
+      //       path:'features',
+      //       element:<Features></Features>
+      //     },
+      //     {
+      //       path:'started',
+      //       element:<Started></Started>
+      //     },
+      {
+        path: "shopmore",
+        element: <ShopMore></ShopMore>,
+      },
+    ],
+  },
+]);
 
 export default router;

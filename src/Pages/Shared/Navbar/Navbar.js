@@ -1,13 +1,32 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { FaHome } from 'react-icons/fa';
 import { FaModx } from 'react-icons/fa';
 import { AiOutlineLogin } from 'react-icons/ai';
 import { GiBuyCard } from 'react-icons/gi';
+import { AuthContext } from '../../../contexts/AuthProvider/AuthProvider';
 
 import logo  from '../../../assets/Untitled design (82).png';
 
 const Navbar = () => {
+
+  const {user}=useContext(AuthContext);
+  const menuItems= <>
+      <li className='font-semibold text-orange-200'><Link to='/'>Home</Link></li>
+      <li className='font-semibold text-orange-200'><Link to='/features'>Features</Link></li>
+      <li className='font-semibold text-orange-200'><Link to='/'>Big Deal</Link></li>
+      {
+        user?.email?
+        <>
+        <li className='font-semibold text-orange-200'><Link to='/orders'>Orders</Link></li>
+        </>
+        :
+        <li className='font-semibold text-orange-200' ><Link to='/login'>Login</Link></li>
+      }
+      
+      
+  </>
+
   return (
     <div className="navbar bg-base-100 flex justify-between">
       <div className="navbar-start">
@@ -20,6 +39,9 @@ const Navbar = () => {
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
+              <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+            {menuItems}
+             </ul>
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
