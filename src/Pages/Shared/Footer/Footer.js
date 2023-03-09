@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { FaSearchPlus } from "react-icons/fa";
 import Wave from 'react-wavify'
 
-// import logo  from '../../../assets/Untitled design (41).png';
+import logo  from '../../../assets/Untitled design (82).png';
 
 const Footer = () => {
     return (
@@ -21,9 +21,9 @@ const Footer = () => {
         <footer className="footer p-10 bg-cyan-900 text-white">
       <div>
       
-    {/* <Link to="/"className="btn btn-ghost normal-case text-xl w-32 pb-12 ">
+    <Link to="/"className="btn btn-ghost normal-case text-xl w-32 pb-12 ">
         <img src={logo} alt='' />
-    </Link> */}
+    </Link>
         <p className='pt-6'>© 2023 All right reserved by SurgicalSavvy.</p>
         
     <div className="grid grid-flow-col gap-4">
