@@ -58,7 +58,7 @@ const Navbar = () => {
              <Link to="/"><FaHome size='2rem' color="1B5B8A"/>Home</Link>
             </li>
             <li>
-              <Link to="/appointment"><GiBuyCard size='2rem' color="1B5B8A"/>Quick Buy</Link>
+              <Link to="/shopmore"><GiBuyCard size='2rem' color="1B5B8A"/>Quick Buy</Link>
             </li>
             <li>
               <Link to="/about"><FaModx size='2rem' color="1B5B8A"/>About</Link>
@@ -81,7 +81,7 @@ const Navbar = () => {
             <Link to="/"><FaHome size='2rem' color="1B5B8A"/>Home</Link>
             </li>
             <li>
-            <Link to="/"><GiBuyCard size='2rem' color="1B5B8A"/>Quick Buy</Link>
+            <Link to="/shopmore"><GiBuyCard size='2rem' color="1B5B8A"/>Quick Buy</Link>
             </li>
             <li>
             <Link to="/about"><FaModx size='2rem' color="1B5B8A"/>About</Link>
