@@ -9,7 +9,7 @@ const Footer = () => {
     return (
     <div>
       {/* B5D8DC */}
-      <Wave fill='#144e74' 
+      {/* <Wave fill='rgb(0, 151, 167)' 
         paused={false}
         options={{
           height: 80,
@@ -17,8 +17,8 @@ const Footer = () => {
           speed: 0.20,
           points: 4
         }}
-  />
-        <footer className="footer p-10 bg-cyan-900 text-white">
+  /> */}
+        <footer className="footer p-10 bg-cyan-700 text-white">
       <div>
       
     <Link to="/"className="btn btn-ghost normal-case text-xl w-32 pb-12 ">

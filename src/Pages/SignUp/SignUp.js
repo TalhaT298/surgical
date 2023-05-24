@@ -20,7 +20,7 @@ const SignUp = () => {
       .catch((err) => console.error(err));
   };
   return (
-    <div className="hero w-full my-20 text-cyan-900">
+    <div className="hero w-full my-20 text-cyan-700">
       <div className="hero-content grid gap-24 md:grid-cols-2 flex-col lg:flex-row">
         <div className="text-center lg:text-left">
           <img className="" src={img} alt="" />
@@ -28,9 +28,9 @@ const SignUp = () => {
         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100 py-20">
           <from onSubmit={handleSignUp} className="card-body">
             <h1 className="text-5xl text-center font-bold">Sign Up</h1>
-            <div className="form-control text-cyan-900">
+            <div className="form-control text-cyan-700">
               <label className="label">
-                <span className="label-text text-cyan-900">Name</span>
+                <span className="label-text text-cyan-700">Name</span>
               </label>
               <input
                 type="text"
@@ -40,9 +40,9 @@ const SignUp = () => {
               />
             </div>
 
-            <div className="form-control text-cyan-900">
+            <div className="form-control text-cyan-700">
               <label className="label">
-                <span className="label-text text-cyan-900">Email</span>
+                <span className="label-text text-cyan-700">Email</span>
               </label>
               <input
                 type="text"
@@ -53,9 +53,9 @@ const SignUp = () => {
               />
             </div>
 
-            <div className="form-control text-cyan-900">
+            <div className="form-control text-cyan-700">
               <label className="label">
-                <span className="label-text text-cyan-900">Password</span>
+                <span className="label-text text-cyan-700">Password</span>
               </label>
               <input
                 type="text"

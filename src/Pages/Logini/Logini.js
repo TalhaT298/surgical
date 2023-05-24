@@ -27,12 +27,12 @@ const Logini = () => {
         </div>
         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100 py-20">
           <from onSubmit={handleLogin} className="card-body">
-            <h1 className="text-5xl text-center font-bold text-cyan-900">
+            <h1 className="text-5xl text-center font-bold text-cyan-700">
               Login now
             </h1>
             <div className="form-control">
               <label className="label">
-                <span className="label-text text-cyan-900">Email</span>
+                <span className="label-text text-cyan-700">Email</span>
               </label>
               <input
                 type="text"
@@ -43,7 +43,7 @@ const Logini = () => {
             </div>
             <div className="form-control">
               <label className="label">
-                <span className="label-text text-cyan-900">Password</span>
+                <span className="label-text text-cyan-700">Password</span>
               </label>
               <input
                 type="text"
@@ -54,17 +54,21 @@ const Logini = () => {
               <label className="label">
                 <a
                   href="#"
-                  className="label-text-alt link link-hover text-cyan-900"
+                  className="label-text-alt link link-hover text-cyan-700"
                 >
                   Forgot password?
                 </a>
               </label>
             </div>
             <div className="form-control mt-6">
-              <input className="btn bg-cyan-900 text-white btn-primary" type="submit" value="Login" />
+              <input
+                className="btn bg-cyan-900 text-white btn-primary"
+                type="submit"
+                value="Login"
+              />
             </div>
           </from>
-          <p className="text-center text-cyan-900">
+          <p className="text-center text-cyan-700">
             New to EyeGlass{" "}
             <Link className="text-orange-800 font-bold" to="/signup">
               Sign Up

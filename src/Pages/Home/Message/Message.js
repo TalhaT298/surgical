@@ -1,13 +1,13 @@
 import React from "react";
 import { Typewriter } from 'react-simple-typewriter';
-import background from "../Home/Untitled design (96).png";
+// import background from "../Home/Untitled design (96).png";
 const Message = () => {
   return (
     <section className="">
-      <div className="hero min-h-screen mt-8 mb-10"
-         style={{
-           background: `url(${background})`,
-         }}
+      <div className="hero min-h-screen mt-1 mb-1"
+        //  style={{
+        //    background: `url(${background})`,
+        //  }}
        >
       
         <div className="hero-content flex-col lg:flex-row-reverse">
@@ -60,8 +60,8 @@ const Message = () => {
                   </a>
                 </label>
               </div>
-              <div className="form-control mt-6 bg-cyan-900">
-                <button className="btn btn-primary bg-cyan-900 text-white">Login</button>
+              <div className="form-control mt-6 bg-cyan-700">
+                <button className="btn btn-info bg-cyan-700 text-white">Login</button>
               </div>
             </div>
           </div>

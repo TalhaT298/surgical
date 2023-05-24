@@ -1,34 +1,43 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import { FaHome } from 'react-icons/fa';
-import { FaModx } from 'react-icons/fa';
-import { FaSearchPlus } from 'react-icons/fa';
-import { AiOutlineLogin } from 'react-icons/ai';
-import { AiOutlineShopping } from 'react-icons/ai';
-import { ImManWoman } from 'react-icons/im';
-import { GiBuyCard } from 'react-icons/gi';
-import { AuthContext } from '../../../contexts/AuthProvider/AuthProvider';
+import { FaHome } from "react-icons/fa";
+import { FaModx } from "react-icons/fa";
+import { FaSearchPlus } from "react-icons/fa";
+import { FaHandHoldingMedical } from "react-icons/fa";
+import { AiOutlineLogin } from "react-icons/ai";
+import { AiOutlineShopping } from "react-icons/ai";
+import { ImManWoman } from "react-icons/im";
+import { GiBuyCard } from "react-icons/gi";
+import { AuthContext } from "../../../contexts/AuthProvider/AuthProvider";
 
-import logo  from '../../../assets/Untitled design (82).png';
+import logo from "../../../assets/Untitled design (82).png";
 
 const Navbar = () => {
-
-  const {user}=useContext(AuthContext);
-  const menuItems= <>
-      <li className='font-semibold text-orange-200'><Link to='/'>Home</Link></li>
-      <li className='font-semibold text-orange-200'><Link to='/features'>Features</Link></li>
-      <li className='font-semibold text-orange-200'><Link to='/'>Big Deal</Link></li>
-      {
-        user?.email?
+  const { user } = useContext(AuthContext);
+  const menuItems = (
+    <>
+      <li className="font-semibold text-orange-200">
+        <Link to="/">Home</Link>
+      </li>
+      <li className="font-semibold text-orange-200">
+        <Link to="/features">Features</Link>
+      </li>
+      <li className="font-semibold text-orange-200">
+        <Link to="/">Big Deal</Link>
+      </li>
+      {user?.email ? (
         <>
-        <li className='font-semibold text-orange-200'><Link to='/orders'>Orders</Link></li>
+          <li className="font-semibold text-orange-200">
+            <Link to="/orders">Orders</Link>
+          </li>
         </>
-        :
-        <li className='font-semibold text-orange-200' ><Link to='/login'>Login</Link></li>
-      }
-      
-      
-  </>
+      ) : (
+        <li className="font-semibold text-orange-200">
+          <Link to="/login">Login</Link>
+        </li>
+      )}
+    </>
+  );
 
   return (
     <div className="navbar bg-base-100 flex justify-between">
@@ -42,9 +51,12 @@ const Navbar = () => {
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
-              <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-            {menuItems}
-             </ul>
+              <ul
+                tabIndex={0}
+                className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                {menuItems}
+              </ul>
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -58,53 +70,89 @@ const Navbar = () => {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-             <Link to="/"><FaHome size='2rem' color="1B5B8A"/>Home</Link>
+              <Link to="/">
+                <FaHome size="2rem" color="1b8a82" />
+                Home
+              </Link>
             </li>
             <li>
-              <Link to="/shopmore"><GiBuyCard size='2rem' color="1B5B8A"/>Quick Buy</Link>
+              <Link to="/shopmore">
+                <GiBuyCard size="2rem" color="1b8a82" />
+                Quick Buy
+              </Link>
             </li>
             <li>
-              <Link to="/about"><FaModx size='2rem' color="1B5B8A"/>About</Link>
+              <Link to="/about">
+                <FaModx size="2rem" color="1b8a82" />
+                About
+              </Link>
             </li>
             <li>
-            <Link to="/login"><AiOutlineLogin size='2rem' color="1B5B8A"/>Login</Link>
+              <Link to="/login">
+                <AiOutlineLogin size="2rem" color="1b8a82" />
+                Login
+              </Link>
             </li>
           </ul>
         </div>
-        <Link to="/"className="btn btn-ghost normal-case text-xl pb-20 w-40">
-        <img src={logo} alt='' />
-    </Link>
+        <Link to="/" className="btn btn-ghost normal-case text-xl pb-20 w-40">
+          <div className="flex">
+            <img src={logo} alt="" />
+            <p className="py-8 text-teal-600 font-bold">SurgicalSavvy</p>
+          </div>
+        </Link>
       </div>
-      <div className="form-control">
-      
-    </div>
+      <div className="form-control"></div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
-        <li>
-            <Link to="/"><FaHome size='2rem' color="1B5B8A"/>Home</Link>
-            </li>
-            <li>
-            <Link to="/shopmore"><GiBuyCard size='2rem' color="1B5B8A"/>Quick Buy</Link>
-            </li>
-            <li>
-            <Link to="/about"><FaModx size='2rem' color="1B5B8A"/>About</Link>
-            </li>
-            <li>
-            <Link to="/login"><AiOutlineLogin size='2rem' color="1B5B8A"/>Login</Link>
-            </li>
-            <li>
-          <Link to="/login"><FaSearchPlus size='1rem' color=""/></Link>
-          </li>
-            <li>
-          <Link to="/login"><AiOutlineShopping size='1rem' color=""/></Link>
-          </li>
-            <li>
-          <Link to="/login">INR</Link>
+          <li>
+            <Link to="/">
+              <FaHome size="1.8rem" color="1b8a82" />
+              Home
+            </Link>
           </li>
           <li>
-          <Link to="/login"><ImManWoman size='1rem' color=""/></Link>
+            <Link to="/shopmore">
+              <GiBuyCard size="1.8rem" color="1b8a82" />
+              Quick Buy
+            </Link>
           </li>
-         
+          <li>
+            <Link to="/shopmore">
+              <FaHandHoldingMedical size="1.8rem" color="1b8a82" />
+              Medical Devices
+            </Link>
+          </li>
+          <li>
+            <Link to="/about">
+              <FaModx size="1.8rem" color="1b8a82" />
+              About
+            </Link>
+          </li>
+          <li>
+            <Link to="/login">
+              <AiOutlineLogin size="1.8rem" color="1b8a82" />
+              Login
+            </Link>
+          </li>
+          <li>
+            <Link to="/login">
+              <FaSearchPlus size="1rem" color="" />
+            </Link>
+          </li>
+          <li>
+            <Link to="/shopmore">
+              <AiOutlineShopping size="1rem" color="" />
+            </Link>
+          </li>
+          <li>
+            <Link to="/">INR</Link>
+          </li>
+          <li>
+            <Link to="/login">
+              <ImManWoman size="1rem" color="" />
+            </Link>
+          </li>
         </ul>
       </div>
     </div>

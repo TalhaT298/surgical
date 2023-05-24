@@ -8,7 +8,7 @@ const ShopMore = () => {
       <Link to="shopmore"></Link>
       <div>
         <div className="text-center mb-6">
-          <h2 className="text-5xl font-semibold text-cyan-900 mb-4">
+          <h2 className="text-5xl font-semibold text-cyan-700 mb-4">
             Shop More!
           </h2>
           <p className="text-2xl">Hurry Up!</p>
@@ -23,12 +23,12 @@ const ShopMore = () => {
             </figure>
             <div className="card-body justify-center">
               <h2 className="card-title justify-center">Ankel Brace</h2>
-              <p className="text-2xl text-cyan-900 text-center font-semibold">
+              <p className="text-2xl text-cyan-700 text-center font-semibold">
                 Price:$11
               </p>
               <div className="card-actions justify-center">
-                <button className="btn btn-wide bg-cyan-900 glass">
-                  <FaShoppingCart size="2rem" />
+                <button className="btn btn-wide bg-cyan-700 glass">
+                  <FaShoppingCart className="" size="2rem" />
                   SHOP
                 </button>
               </div>
@@ -44,11 +44,11 @@ const ShopMore = () => {
             </figure>
             <div className="card-body justify-center">
               <h2 className="card-title justify-center">Urin Bags</h2>
-              <p className="text-2xl text-cyan-900 text-center font-semibold">
+              <p className="text-2xl text-cyan-700 text-center font-semibold">
                 Price:$13
               </p>
               <div className="card-actions justify-center">
-                <button className="btn btn-wide bg-cyan-900 glass">
+                <button className="btn btn-wide bg-cyan-700 glass">
                   <FaShoppingCart size="2rem" />
                   SHOP
                 </button>
@@ -65,11 +65,11 @@ const ShopMore = () => {
             </figure>
             <div className="card-body justify-center">
               <h2 className="card-title justify-center">LS Belt</h2>
-              <p className="text-2xl text-cyan-900 text-center font-semibold">
+              <p className="text-2xl text-cyan-700 text-center font-semibold">
                 Price:$15
               </p>
               <div className="card-actions justify-center">
-                <button className="btn btn-wide bg-cyan-900 glass">
+                <button className="btn btn-wide bg-cyan-700 glass">
                   <FaShoppingCart size="2rem" />
                   SHOP
                 </button>
@@ -85,12 +85,14 @@ const ShopMore = () => {
               />
             </figure>
             <div className="card-body">
-              <h2 className="card-title  justify-center">Heat and Cold Therapy</h2>
-              <p className="text-2xl text-cyan-900 text-center font-semibold">
+              <h2 className="card-title  justify-center">
+                Heat and Cold Therapy
+              </h2>
+              <p className="text-2xl text-cyan-700 text-center font-semibold">
                 Price:$10
               </p>
               <div className="card-actions justify-center">
-                <button className="btn btn-wide bg-cyan-900 glass">
+                <button className="btn btn-wide bg-cyan-700 glass">
                   <FaShoppingCart size="2rem" />
                   SHOP
                 </button>
@@ -107,9 +109,11 @@ const ShopMore = () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title justify-center">X Ray Machine</h2>
-              <p className="text-2xl text-cyan-900 text-center font-semibold">Price:$8</p>
+              <p className="text-2xl text-cyan-700 text-center font-semibold">
+                Price:$8
+              </p>
               <div className="card-actions justify-center">
-                <button className="btn btn-wide bg-cyan-900 glass">
+                <button className="btn btn-wide bg-cyan-700 glass">
                   <FaShoppingCart size="2rem" />
                   SHOP
                 </button>
@@ -126,11 +130,11 @@ const ShopMore = () => {
             </figure>
             <div className="card-body justify-center">
               <h2 className="card-title justify-center">Spirometer</h2>
-              <p className="text-2xl text-cyan-900 text-center font-semibold">
+              <p className="text-2xl text-cyan-700 text-center font-semibold">
                 Price:$22
               </p>
               <div className="card-actions justify-center">
-                <button className="btn btn-wide bg-cyan-900 glass">
+                <button className="btn btn-wide bg-cyan-700 glass">
                   <FaShoppingCart size="2rem" />
                   SHOP
                 </button>
@@ -147,9 +151,11 @@ const ShopMore = () => {
             </figure>
             <div className="card-body justify-center">
               <h2 className="card-title justify-center">Cotton Products</h2>
-              <p className="text-2xl text-cyan-900 text-center font-semibold">Price:$9</p>
+              <p className="text-2xl text-cyan-700 text-center font-semibold">
+                Price:$9
+              </p>
               <div className="card-actions justify-center">
-                <button className="btn btn-wide bg-cyan-900 glass">
+                <button className="btn btn-wide bg-cyan-700 glass">
                   <FaShoppingCart size="2rem" />
                   SHOP
                 </button>
@@ -166,11 +172,11 @@ const ShopMore = () => {
             </figure>
             <div className="card-body justify-center">
               <h2 className="card-title justify-center">Catheter</h2>
-              <p className="text-2xl text-cyan-900 text-center font-semibold">
+              <p className="text-2xl text-cyan-700 text-center font-semibold">
                 Price:$17
               </p>
               <div className="card-actions justify-center">
-                <button className="btn bg-cyan-900 btn-wide glass">
+                <button className="btn bg-cyan-700 btn-wide glass">
                   <FaShoppingCart size="2rem" />
                   SHOP
                 </button>
@@ -187,9 +193,11 @@ const ShopMore = () => {
             </figure>
             <div className="card-body justify-center">
               <h2 className="card-title justify-center">Bandage</h2>
-              <p className="text-2xl text-cyan-900 text-center font-semibold">Price:$9</p>
+              <p className="text-2xl text-cyan-700 text-center font-semibold">
+                Price:$9
+              </p>
               <div className="card-actions justify-center">
-                <button className="btn btn-wide bg-cyan-900 glass">
+                <button className="btn btn-wide bg-cyan-700 glass">
                   <FaShoppingCart size="2rem" />
                   SHOP
                 </button>
@@ -206,11 +214,11 @@ const ShopMore = () => {
             </figure>
             <div className="card-body  justify-center">
               <h2 className="card-title  justify-center">Dialyzer</h2>
-              <p className="text-2xl text-cyan-900 text-center font-semibold">
+              <p className="text-2xl text-cyan-700 text-center font-semibold">
                 Price:$18
               </p>
               <div className="card-actions justify-center">
-                <button className="btn btn-wide bg-cyan-900 glass">
+                <button className="btn btn-wide bg-cyan-700 glass">
                   <FaShoppingCart size="2rem" />
                   SHOP
                 </button>
@@ -227,9 +235,11 @@ const ShopMore = () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title  justify-center">Romsons R4 Urine</h2>
-              <p className="text-2xl text-cyan-900 text-center font-semibold">Price:$6</p>
+              <p className="text-2xl text-cyan-700 text-center font-semibold">
+                Price:$6
+              </p>
               <div className="card-actions  justify-center">
-                <button className="btn btn-wide bg-cyan-900 glass">
+                <button className="btn btn-wide bg-cyan-700 glass">
                   <FaShoppingCart size="2rem" />
                   SHOP
                 </button>
@@ -246,11 +256,11 @@ const ShopMore = () => {
             </figure>
             <div className="card-body">
               <h2 className="card-title justify-center">Dental</h2>
-              <p className="text-2xl text-cyan-900 text-center font-semibold">
+              <p className="text-2xl text-cyan-700 text-center font-semibold">
                 Price:$19
               </p>
               <div className="card-actions justify-center">
-                <button className="btn btn-wide bg-cyan-900 glass">
+                <button className="btn btn-wide bg-cyan-700 glass">
                   <FaShoppingCart size="2rem" />
                   SHOP
                 </button>

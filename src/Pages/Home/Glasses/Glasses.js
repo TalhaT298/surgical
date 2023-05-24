@@ -11,17 +11,17 @@ const Glasses = () => {
       .then((data) => setglasses(data));
   }, []);
   return (
-    <div className="py-6 pl-8">
+    <div className="py-10 pl-8">
       <div className="flex justify-between">
         <figure>
           <img
             className="w-24 lg:w-48"
-            src="https://i.ibb.co/7SV4xVc/Untitled-design-2023-03-08-T012812-057.png"
+            src="https://i.ibb.co/D7Rwv3C/Untitled-design-8.png"
             alt=""
           />
         </figure>
         <div>
-          <h4 className="lg:text-5xl md:text-2xl sm:text-3xl text-cyan-900 font-bold pt-10 pr-14">
+          <h4 className="lg:text-5xl md:text-2xl sm:text-3xl text-cyan-700 font-bold pt-10 pr-14">
             Buy our products
           </h4>
           {/* <h2 className='text-4xl'>Buy our products</h2> */}
@@ -32,10 +32,10 @@ const Glasses = () => {
           <GlassCard key={glass._id} glass={glass}></GlassCard>
         ))}
       </div>
-      <div className="text-center pt-2 pb-6">
+      <div className="text-center pt-6 pb-6">
         <Link to="/shopmore">
-          <button className="btn btn-outline bg-cyan-900 text-white">
-            <FaShoppingCart size="2rem" />
+          <button className="btn btn-outline bg-cyan-700 text-white">
+            <FaShoppingCart className="" size="2rem" />
             SHOP MORE
           </button>
         </Link>
