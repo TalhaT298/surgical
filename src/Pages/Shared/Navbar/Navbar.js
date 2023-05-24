@@ -2,7 +2,10 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { FaHome } from 'react-icons/fa';
 import { FaModx } from 'react-icons/fa';
+import { FaSearchPlus } from 'react-icons/fa';
 import { AiOutlineLogin } from 'react-icons/ai';
+import { AiOutlineShopping } from 'react-icons/ai';
+import { ImManWoman } from 'react-icons/im';
 import { GiBuyCard } from 'react-icons/gi';
 import { AuthContext } from '../../../contexts/AuthProvider/AuthProvider';
 
@@ -73,7 +76,7 @@ const Navbar = () => {
     </Link>
       </div>
       <div className="form-control">
-      <input type="text" placeholder="Search" className="input input-bordered" />
+      
     </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
@@ -89,6 +92,18 @@ const Navbar = () => {
             <li>
             <Link to="/login"><AiOutlineLogin size='2rem' color="1B5B8A"/>Login</Link>
             </li>
+            <li>
+          <Link to="/login"><FaSearchPlus size='1rem' color=""/></Link>
+          </li>
+            <li>
+          <Link to="/login"><AiOutlineShopping size='1rem' color=""/></Link>
+          </li>
+            <li>
+          <Link to="/login">INR</Link>
+          </li>
+          <li>
+          <Link to="/login"><ImManWoman size='1rem' color=""/></Link>
+          </li>
          
         </ul>
       </div>
