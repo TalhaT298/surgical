@@ -70,6 +70,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
 # live link
 <https://surgicalsavvy.netlify.app>
+![My Image](https://i.ibb.co/VBGJScD/surgicalsavvy-netlify-app-1.png)
+# Full Site
 ![My Image](https://i.ibb.co/zN4MVBX/Untitled-design-13.png)
 # Server Site
 <https://github.com/TalhaT298/surgical-server>
