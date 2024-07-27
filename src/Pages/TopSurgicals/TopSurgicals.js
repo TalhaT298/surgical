@@ -1,4 +1,7 @@
 import React from "react";
+import accuracy from "../../../src/assets/images/banner/accuracy.png";
+import Bacteria from "../../../src/assets/images/banner/Bacteria.png";
+import Protection from "../../../src/assets/images/banner/Protection.png";
 
 const TopSurgicals = () => {
   return (
@@ -80,8 +83,8 @@ const TopSurgicals = () => {
             <div class="mb-12 md:mb-0">
               <div class="flex justify-center mb-6">
                 <img
-                  src="https://i.ibb.co/2N9w0Yv/Untitled-design-6.png"
-                  class="rounded-full shadow-lg w-48"
+                  src={accuracy}
+                  className="rounded-full shadow-lg w-48"
                 />
               </div>
               <h5 class="text-lg font-bold mb-4">Accuracy</h5>
@@ -92,7 +95,7 @@ const TopSurgicals = () => {
             <div class="mb-12 md:mb-0">
               <div class="flex justify-center mb-6">
                 <img
-                  src="https://i.ibb.co/W0WGJHZ/Untitled-design-5.png"
+                  src={Protection}
                   class="rounded-full shadow-lg w-48"
                 />
               </div>
@@ -104,7 +107,7 @@ const TopSurgicals = () => {
             <div class="mb-0">
               <div class="flex justify-center mb-6">
                 <img
-                  src="https://i.ibb.co/SdWKPmN/Untitled-design-7.png"
+                  src={Bacteria}
                   class="rounded-full shadow-lg w-48"
                 />
               </div>
