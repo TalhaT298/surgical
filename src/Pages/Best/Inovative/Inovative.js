@@ -7,8 +7,8 @@ const Inovative = () => {
         <h2 className="text-5xl font-bold text-cyan-700 mb-4">
         Innovative Quality & Feature
         </h2>
-        <p className="text-center text-xl space-x-3 font-bold text-teal-600 mb-4">
-        SAFEGUARDS HEALTH
+        <p className="text-center uppercase text-xl space-x-3 font-bold text-teal-600 mb-4">
+        Discover our innovative surgical solutions with cutting-edge quality and advanced features
         </p>
       </div>
       <div>
