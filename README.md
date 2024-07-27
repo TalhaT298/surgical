@@ -30,7 +30,7 @@ SurgicalSavvy leverages modern web technologies to provide a robust and user-fri
 
 ## Installation and Setup
 
-1. Clone the repository:
+ Clone the repository:
    ```bash
    git clone https://github.com/yourusername/surgicalsavvy.git
 
