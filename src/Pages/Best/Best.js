@@ -7,56 +7,55 @@ import { FaRetweet } from "react-icons/fa";
 const Best = () => {
   return (
     <div className="pt-10 pb-16">
-      <div className="text-center py-6 ">
-        <p className="text-4xl font-bold text-cyan-700 pb-4">Get Know About Us</p>
+      <div className="text-center mt-8 mb-6">
+        <h2 className="text-5xl font-bold text-cyan-700 mb-4">
+          Services
+        </h2>
+        <p className="text-center pb-8 uppercase text-xl space-x-3 font-bold text-teal-600 mb-4">
+        Expert surgical services with advanced techniques and personalized care!
+        </p>
       </div>
-      <div className="grid mr-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 text-slate-50">
-        <div className="card w-96 bg-cyan-700 shadow-xl">
-          <div className="card-body text-center">
-            <h2 className="card-title justify-center">
-              <FaAudible size="3rem" />
-            </h2>
-            <p className="text-2xl font-semibold">Best Services</p>
-            <p>A service is something that the public needs</p>
-          </div>
-        </div>
-
-        <div className="card w-96 bg-cyan-700 shadow-xl">
-          <div className="card-body text-center">
-            <h2 className="card-title justify-center">
-              <FaShippingFast size="3rem" />
-            </h2>
-            <p className="text-2xl font-semibold">Free Shipping</p>
-            <p>
-              You don't need additional shipping charge during the checkout
-              process
-            </p>
-          </div>
-        </div>
-
-        <div className="card w-96 bg-cyan-700 shadow-xl">
-          <div className="card-body text-center">
-            <h2 className="card-title justify-center">
-              <IoIosPeople size="3rem" />
-            </h2>
-            <p className="text-2xl font-semibold">Million Customers</p>
-            <p>We are provide high-Quality products</p>
-          </div>
-        </div>
-
-        <div className="card w-96 bg-cyan-700 shadow-xl">
-          <div className="card-body text-center">
-            <h2 className="card-title justify-center">
-              <FaRetweet size="3rem" />
-            </h2>
-            <p className="text-2xl font-semibold">30 Days Free-Return</p>
-            <p>
-              you have the right to return it within 30 days and get all of your
-              money back if it's faulty
-            </p>
-          </div>
+      <div className="grid gap-5 p-5 text-slate-50 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="card bg-cyan-700 shadow-xl">
+        <div className="card-body text-center">
+          <h2 className="card-title justify-center">
+            <FaAudible size="3rem" />
+          </h2>
+          <p className="text-2xl font-semibold">Best Services</p>
+          <p>A service is something that the public needs</p>
         </div>
       </div>
+
+      <div className="card bg-cyan-700 shadow-xl">
+        <div className="card-body text-center">
+          <h2 className="card-title justify-center">
+            <FaShippingFast size="3rem" />
+          </h2>
+          <p className="text-2xl font-semibold">Free Shipping</p>
+          <p>You don't need additional shipping charge during the checkout process</p>
+        </div>
+      </div>
+
+      <div className="card bg-cyan-700 shadow-xl">
+        <div className="card-body text-center">
+          <h2 className="card-title justify-center">
+            <IoIosPeople size="3rem" />
+          </h2>
+          <p className="text-2xl font-semibold">Million Customers</p>
+          <p>We provide high-quality products</p>
+        </div>
+      </div>
+
+      <div className="card bg-cyan-700 shadow-xl">
+        <div className="card-body text-center">
+          <h2 className="card-title justify-center">
+            <FaRetweet size="3rem" />
+          </h2>
+          <p className="text-2xl font-semibold">30 Days Free-Return</p>
+          <p>You have the right to return it within 30 days and get all of your money back if it's faulty</p>
+        </div>
+      </div>
+    </div>
     </div>
   );
 };
