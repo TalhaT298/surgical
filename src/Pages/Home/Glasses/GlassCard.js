@@ -10,8 +10,8 @@ const GlassCard = ({ glass }) => {
         <img src={img} alt="Shoes" />
       </figure>
       <div className="card-body text-center">
-        <h2 className="card-title text-cyan-700 justify-center">{title}</h2>
-        <p className="text-2xl text-cyan-700 font-semibold">Price:${price}</p>
+        <h2 className="card-title text-2xl font-bold text-teal-600 justify-center">{title}</h2>
+        <p className=" text-cyan-700 font-semibold">Price:${price}</p>
         <div className="card-actions justify-center">
           <Link to={`/checkout/${_id}`}>
             <button className="btn bg-cyan-700 hover:bg-teal-600 btn-wide glass">
