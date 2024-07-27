@@ -14,7 +14,7 @@ const GlassCard = ({ glass }) => {
         <p className="text-2xl text-cyan-700 font-semibold">Price:${price}</p>
         <div className="card-actions justify-center">
           <Link to={`/checkout/${_id}`}>
-            <button className="btn bg-cyan-700 btn-wide glass">
+            <button className="btn bg-cyan-700 hover:bg-teal-600 btn-wide glass">
               <FaShoppingCart className="text-white" size="2rem" />
               <p className="text-white">SHOP</p>
             </button>

@@ -44,7 +44,7 @@ const Glasses = () => {
       </div>
       <div className="text-center pt-6 pb-6">
         <Link to="/shopmore">
-          <button className="btn btn-outline bg-cyan-700 text-white">
+          <button className="btn btn-outline hover:bg-teal-600 bg-cyan-700 text-white">
             <FaShoppingCart className="" size="2rem" />
             SHOP MORE
           </button>

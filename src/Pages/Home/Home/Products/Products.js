@@ -44,7 +44,7 @@ const Products = () => {
                 </p>
                 <Link to="">
                   <button
-                    className="btn btn-outline text-cyan-700 bg-white mr-6"
+                    className="btn btn-outline  text-cyan-700 bg-white mr-6"
                     data-aos-duration="1000"
                   >
                     Contact
