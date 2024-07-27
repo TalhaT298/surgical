@@ -13,7 +13,7 @@ const Products = () => {
         <h2 className="text-5xl font-bold text-cyan-700 mb-4">
           Regular Products
         </h2>
-        <p className="text-center text-xl space-x-3 font-bold text-teal-600 mb-4">
+        <p className="text-center uppercase text-xl space-x-3 font-bold text-teal-600 mb-4">
           Simplified collection of products offered by a company or brand.
         </p>
       </div>

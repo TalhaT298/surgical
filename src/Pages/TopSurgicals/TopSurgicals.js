@@ -101,7 +101,7 @@ const TopSurgicals = () => {
               </div>
               <h5 class="text-lg font-bold mb-4">Complete Protection</h5>
               <p class="mb-4">
-                measures that aim to safeguard against threats and risks
+                Measures that aim to safeguard against threats and risks.
               </p>
             </div>
             <div class="mb-0">
