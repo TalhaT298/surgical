@@ -3,7 +3,7 @@ import { FaAudible } from "react-icons/fa";
 import { FaShippingFast } from "react-icons/fa";
 import { IoIosPeople } from "react-icons/io";
 import { FaRetweet } from "react-icons/fa";
-
+import { motion } from "framer-motion"
 const Best = () => {
   return (
     <div className="pt-10 pb-16">
@@ -26,7 +26,11 @@ const Best = () => {
         </div>
       </div>
 
-      <div className="card bg-cyan-700 shadow-xl">
+      <motion.div
+      drag="x"
+      dragElastic={1}
+      dragConstraints={{ left: -200, right: 200 }}
+       className="card bg-cyan-700 shadow-xl">
         <div className="card-body text-center">
           <h2 className="card-title justify-center">
             <FaShippingFast size="3rem" />
@@ -34,7 +38,7 @@ const Best = () => {
           <p className="text-2xl font-semibold">Free Shipping</p>
           <p>You don't need additional shipping charge during the checkout process</p>
         </div>
-      </div>
+      </motion.div>
 
       <div className="card bg-cyan-700 shadow-xl">
         <div className="card-body text-center">
