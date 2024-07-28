@@ -33,8 +33,7 @@ const Inovative = () => {
                   <div className="text-start">
                     <h2 className="text-xl font-bold mb-2">Bodysuit Gown</h2>
                     <p className="text-gray-700">
-                      Est ante in nibh mauris. Ullamcorper morbi tincidunt
-                      ornare massa eget egestas purus.
+                    Stay protected and comfortable with our high-quality bodysuit gown.
                     </p>
                   </div>
                 </div>
@@ -50,8 +49,7 @@ const Inovative = () => {
                   <div className="text-start">
                     <h2 className="text-xl font-bold mb-2">3 Play Mask</h2>
                     <p className="text-gray-700">
-                      Est ante in nibh mauris. Ullamcorper morbi tincidunt
-                      ornare massa eget egestas purus.
+                    Enjoy superior protection and breathability with our 3-ply mask
                     </p>
                   </div>
                 </div>
@@ -67,8 +65,7 @@ const Inovative = () => {
                   <div className="text-start">
                     <h2 className="text-xl font-bold mb-2">Surgical Cap</h2>
                     <p className="text-gray-700">
-                      Est ante in nibh mauris. Ullamcorper morbi tincidunt
-                      ornare massa eget egestas purus.
+                    Stay secure and comfortable with our high-quality, breathable surgical cap
                     </p>
                   </div>
                 </div>
@@ -87,8 +84,7 @@ const Inovative = () => {
                   <div className="text-start">
                     <h2 className="text-xl font-bold mb-2">Goggles</h2>
                     <p className="text-gray-700">
-                      Est ante in nibh mauris. Ullamcorper morbi tincidunt
-                      ornare massa eget egestas purus.
+                    See clearly and comfortably with our high-performance, anti-fog goggles
                     </p>
                   </div>
                   <div className="flex justify-center mr-4">
@@ -105,8 +101,7 @@ const Inovative = () => {
                   <div className="text-start">
                     <h2 className="text-xl font-bold mb-2">Gloves</h2>
                     <p className="text-gray-700">
-                      Est ante in nibh mauris. Ullamcorper morbi tincidunt
-                      ornare massa eget egestas purus.
+                    Experience ultimate comfort and grip with our advanced, breathable gloves
                     </p>
                   </div>
                   <div className="flex justify-center mr-4">
@@ -123,8 +118,7 @@ const Inovative = () => {
                   <div className="text-start">
                     <h2 className="text-xl font-bold mb-2">Full Bodysuit</h2>
                     <p className="text-gray-700">
-                      Est ante in nibh mauris. Ullamcorper morbi tincidunt
-                      ornare massa eget egestas purus.
+                    Experience ultimate protection and comfort with our premium full bodysuit.
                     </p>
                   </div>
                   <div className="flex justify-center mr-4">
