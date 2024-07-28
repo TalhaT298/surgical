@@ -8,14 +8,14 @@ const Best = () => {
   return (
     <div className="pt-10 pb-16">
       <div className="text-center mt-8 mb-6">
-        <h2 className="text-5xl font-bold text-cyan-700 mb-4">
+        <h2 className="text-5xl font-bold text-cyan-700 mb-4 ">
           Services
         </h2>
         <p className="text-center pb-8 uppercase text-xl space-x-3 font-bold text-teal-600 mb-4">
         Expert surgical services with advanced techniques and personalized care!
         </p>
       </div>
-      <div className="grid gap-5 p-5 text-slate-50 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-5 p-5 text-slate-50 sm:grid-cols-2 lg:grid-cols-4 px-16">
       <div className="card bg-cyan-700 shadow-xl">
         <div className="card-body text-center">
           <h2 className="card-title justify-center">

@@ -12,7 +12,7 @@ const Inovative = () => {
         </p>
       </div>
       <div>
-      <img src="https://i.ibb.co/W69kJJM/Screenshot-36.png" alt="" />
+      <img className='' src="https://i.ibb.co/W69kJJM/Screenshot-36.png" alt="" />
       </div>
             
         </div>

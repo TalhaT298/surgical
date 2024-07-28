@@ -8,7 +8,7 @@ import logo from "../../../assets/Untitled design (82).png";
 
 const Footer = () => {
   return (
-    <div className="w-full">
+    <div className="">
       {/* B5D8DC */}
       {/* <Wave fill='rgb(0, 151, 167)' 
         paused={false}
