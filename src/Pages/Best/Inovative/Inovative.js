@@ -3,6 +3,9 @@ import a1 from "../../../assets/images/banner/7.png";
 import { IoIosBody } from "react-icons/io";
 import { CiMedicalMask } from "react-icons/ci";
 import { FaCapsules } from "react-icons/fa";
+import { GiSteampunkGoggles } from "react-icons/gi";
+import { GiGloves } from "react-icons/gi";
+import { GiTrenchBodyArmor } from "react-icons/gi";
 const Inovative = () => {
   return (
     <div className="">
@@ -79,11 +82,7 @@ const Inovative = () => {
                     </p>
                   </div>
                   <div className="flex justify-center mr-4">
-                    <img
-                      src="https://via.placeholder.com/50"
-                      alt="Bodysuit Gown Icon"
-                      className="w-24 h-24"
-                    ></img>
+                  <GiSteampunkGoggles className="w-20 h-20 text-teal-600"/>
                   </div>
                 </div>
 
@@ -96,11 +95,7 @@ const Inovative = () => {
                     </p>
                   </div>
                   <div className="flex justify-center mr-4">
-                    <img
-                      src="https://via.placeholder.com/50"
-                      alt="Bodysuit Gown Icon"
-                      className="w-24 h-24"
-                    ></img>
+                  <GiGloves className="w-20 h-20 text-teal-600"/>
                   </div>
                 </div>
 
@@ -113,11 +108,7 @@ const Inovative = () => {
                     </p>
                   </div>
                   <div className="flex justify-center mr-4">
-                    <img
-                      src="https://via.placeholder.com/50"
-                      alt="Bodysuit Gown Icon"
-                      className="w-24 h-24"
-                    ></img>
+                  <GiTrenchBodyArmor className="w-20 h-20 text-teal-600"/>
                   </div>
                 </div>
               </div>
