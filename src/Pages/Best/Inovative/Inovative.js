@@ -1,5 +1,5 @@
 import React from "react";
-import a1 from "../../../assets/images/banner/7.png";
+import doc from "../../../assets/images/banner/doctor.png";
 import { IoIosBody } from "react-icons/io";
 import { CiMedicalMask } from "react-icons/ci";
 import { FaCapsules } from "react-icons/fa";
@@ -28,7 +28,7 @@ const Inovative = () => {
           <div className= "p-8">
             <div className="max-w-4xl mx-auto">
               <div class="grid grid-rows-1 md:grid-rows-3 gap-8">
-                <div className=" p-6 rounded-lg shadow-md flex flex-row items-center justify-center">
+                <div className=" p-6 rounded-lg   flex flex-row items-center justify-center">
                   <div className="flex justify-center mr-4">
                   <IoIosBody className="w-20 h-20 text-teal-600"/>
                   </div>
@@ -40,7 +40,7 @@ const Inovative = () => {
                   </div>
                 </div>
 
-                <div className="bg-white p-6 rounded-lg shadow-md flex flex-row items-center justify-center">
+                <div className="  p-6 rounded-lg   flex flex-row items-center justify-center">
                   <div className="flex justify-center mr-4">
                   <CiMedicalMask className="w-20 h-20 text-teal-600"/>
                   </div>
@@ -52,7 +52,7 @@ const Inovative = () => {
                   </div>
                 </div>
 
-                <div className="bg-white p-6 rounded-lg shadow-md flex flex-row items-center justify-center">
+                <div className="  p-6 rounded-lg   flex flex-row items-center justify-center">
                   <div className="flex justify-center mr-4">
                   <FaCapsules className="w-20 h-20 text-teal-600"/>
                   </div>
@@ -67,13 +67,15 @@ const Inovative = () => {
             </div>
           </div>
         </div>
-        <div className="w-1/5 bg-green-500">Middle Div</div>
+        <div className="w-1/5">
+        <img src={doc} alt="" />
+        </div>
         {/* right side */}
-        <div className="w-2/5 bg-red-500">
-          <div className="bg-gray-100 p-8">
+        <div className="w-2/5 ">
+          <div className=" p-8">
             <div className="max-w-4xl mx-auto">
               <div class="grid grid-rows-1 md:grid-rows-3 gap-8">
-              <div className="bg-white p-6 rounded-lg shadow-md flex flex-row items-center justify-center">
+              <div className="  p-6 rounded-lg   flex flex-row items-center justify-center">
                   
                   <div className="text-start">
                     <h2 className="text-xl font-bold mb-2">Goggles</h2>
@@ -86,7 +88,7 @@ const Inovative = () => {
                   </div>
                 </div>
 
-                <div className="bg-white p-6 rounded-lg shadow-md flex flex-row items-center justify-center">
+                <div className="  p-6 rounded-lg   flex flex-row items-center justify-center">
                   
                   <div className="text-start">
                     <h2 className="text-xl font-bold mb-2">Gloves</h2>
@@ -99,7 +101,7 @@ const Inovative = () => {
                   </div>
                 </div>
 
-                <div className="bg-white p-6 rounded-lg shadow-md flex flex-row items-center justify-center">
+                <div className="  p-6 rounded-lg   flex flex-row items-center justify-center">
                   
                   <div className="text-start">
                     <h2 className="text-xl font-bold mb-2">Full Bodysuit</h2>
