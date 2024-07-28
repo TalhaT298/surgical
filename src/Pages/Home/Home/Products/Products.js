@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 
 const Products = () => {
   return (
-    <div>
+    <div className="">
       <div className="text-center mt-8 mb-6">
         <h2 className="text-5xl font-bold text-cyan-700 mb-4">
           Regular Products

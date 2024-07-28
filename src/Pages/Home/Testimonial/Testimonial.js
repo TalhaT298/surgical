@@ -11,7 +11,7 @@ const Testimonial = () => {
       name: "Tanzil Tarique",
       img: people1,
       review:
-        'I recently purchased a product from this company and I must say, I am thoroughly impressed with the quality and service I received. The product exceeded my expectations and the customer service team was extremely helpful and friendly."',
+        '"I recently purchased a product from this company and I must say, I am thoroughly impressed with the quality and service I received. The product exceeded my expectations and the customer service team was extremely helpful and friendly."',
     },
     {
       _id: 2,
@@ -30,21 +30,23 @@ const Testimonial = () => {
   ];
 
   return (
-    <section className="my-16 ">
-      <div className="flex justify-between">
-        <div>
+    <section className="my-16">
+      <div className="flex flex-col items-center justify-center md:flex-row md:justify-between px-16">
+        <div className="text-center md:text-left">
           <h4 className="text-xl text-cyan-700 font-bold">Testimonial</h4>
-          <h2 className="text-5xl text-teal-600 font-bold">What Our Customers Says</h2>
+          <h2 className="text-5xl text-teal-600 font-bold">
+            What Our Customers Say
+          </h2>
         </div>
-        <figure>
+        <figure className="mt-4 md:mt-0">
           <img
             className="w-24 lg:w-48"
             src="https://i.ibb.co/hMdx4fg/Untitled-design-9.png"
-            alt=""
+            alt="Logo"
           />
         </figure>
       </div>
-      <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-6 grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-10">
         {reviews.map((review) => (
           <Reviws key={review._id} review={review}></Reviws>
         ))}
