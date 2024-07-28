@@ -32,7 +32,7 @@ const Inovative = () => {
                 <IoIosBody className="w-16 md:w-20 h-16 md:h-20 text-teal-600"/>
               </div>
               <div className="text-center md:text-start">
-                <h2 className="text-lg md:text-xl font-bold mb-2">Bodysuit Gown</h2>
+                <h2 className="text-lg md:text-xl font-bold mb-2 text-cyan-700">Bodysuit Gown</h2>
                 <p className="text-gray-700">
                   Stay protected and comfortable with our high-quality bodysuit gown.
                 </p>
@@ -44,7 +44,7 @@ const Inovative = () => {
                 <CiMedicalMask className="w-16 md:w-20 h-16 md:h-20 text-teal-600"/>
               </div>
               <div className="text-center md:text-start">
-                <h2 className="text-lg md:text-xl font-bold mb-2">3 Play Mask</h2>
+                <h2 className="text-lg md:text-xl font-bold mb-2 text-cyan-700">3 Play Mask</h2>
                 <p className="text-gray-700">
                   Enjoy superior protection and breathability with our 3-ply mask
                 </p>
@@ -56,7 +56,7 @@ const Inovative = () => {
                 <FaCapsules className="w-16 md:w-20 h-16 md:h-20 text-teal-600"/>
               </div>
               <div className="text-center md:text-start">
-                <h2 className="text-lg md:text-xl font-bold mb-2">Surgical Cap</h2>
+                <h2 className="text-lg md:text-xl font-bold mb-2 text-cyan-700">Surgical Cap</h2>
                 <p className="text-gray-700">
                   Stay secure and comfortable with our high-quality, breathable surgical cap
                 </p>
@@ -79,7 +79,7 @@ const Inovative = () => {
           <div className="grid grid-rows-3 gap-8">
             <div className="p-6 rounded-lg flex flex-col md:flex-row items-center justify-center">
               <div className="text-center md:text-start">
-                <h2 className="text-lg md:text-xl font-bold mb-2">Goggles</h2>
+                <h2 className="text-lg md:text-xl font-bold mb-2 text-cyan-700">Goggles</h2>
                 <p className="text-gray-700">
                   See clearly and comfortably with our high-performance, anti-fog goggles
                 </p>
@@ -91,7 +91,7 @@ const Inovative = () => {
 
             <div className="p-6 rounded-lg flex flex-col md:flex-row items-center justify-center">
               <div className="text-center md:text-start">
-                <h2 className="text-lg md:text-xl font-bold mb-2">Gloves</h2>
+                <h2 className="text-lg md:text-xl font-bold mb-2 text-cyan-700">Gloves</h2>
                 <p className="text-gray-700">
                   Experience ultimate comfort and grip with our advanced, breathable gloves
                 </p>
@@ -103,7 +103,7 @@ const Inovative = () => {
 
             <div className="p-6 rounded-lg flex flex-col md:flex-row items-center justify-center">
               <div className="text-center md:text-start">
-                <h2 className="text-lg md:text-xl font-bold mb-2">Full Bodysuit</h2>
+                <h2 className="text-lg md:text-xl font-bold mb-2 text-cyan-700">Full Bodysuit</h2>
                 <p className="text-gray-700">
                   Experience ultimate protection and comfort with our premium full bodysuit.
                 </p>
