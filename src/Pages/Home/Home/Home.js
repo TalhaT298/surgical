@@ -16,8 +16,6 @@ const Home = () => {
             <TopSurgicals></TopSurgicals>
             <Products></Products>
             <Glasses></Glasses>
-            
-            
             <Testimonial></Testimonial>
             <Best></Best>
             <Inovative></Inovative>
