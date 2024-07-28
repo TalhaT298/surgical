@@ -19,24 +19,23 @@ const Products = () => {
       </div>
       <div className="" data-aos="fade-left">
         <section
-          className="mt-8 mb-10 rounded-l-full rounded-r-full"
-          style={{
-            background: `url(${background})`,
-          }}
+          className="mt-8 mb-10 rounded-l-full rounded-r-full bg-cover bg-center"
+          style={{ backgroundImage: `url(${background})` }}
         >
           <div className="hero">
-            <div className="hero-content flex-col lg:flex-row">
-              <div className="w-1/2">
+            <div className="hero-content flex flex-col lg:flex-row">
+              <div className="w-full lg:w-1/2">
                 <img
                   src={man}
-                  className="lg:w-1/2 md:block hidden shadow-2xl"
+                  className="w-full lg:w-3/4 md:block hidden shadow-2xl mx-auto"
+                  alt="Description"
                 />
               </div>
-              <div className="w-1/2">
-                <h1 className="text-4xl font-bold text-white">
-                  Consumable & Disposable
+              <div className="w-full lg:w-1/2 px-4 lg:px-8 text-center lg:text-left">
+                <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-4">
+                  Consumable & Disposablee
                 </h1>
-                <p className="py-8 font-semibold text-white">
+                <p className="py-4 text-sm md:text-base font-semibold text-white">
                   Disposable products are a particular, extreme case of
                   consumables, because their end-of-life is reached after a
                   single use. Consumables are products that consumers use
@@ -44,7 +43,7 @@ const Products = () => {
                 </p>
                 <Link to="">
                   <button
-                    className="btn btn-outline  text-cyan-700 bg-white mr-6"
+                    className="btn btn-outline text-cyan-700 bg-white mr-6"
                     data-aos-duration="1000"
                   >
                     Contact
@@ -56,59 +55,28 @@ const Products = () => {
           </div>
         </section>
       </div>
-      {/* <section
-      className="mt-8 mb-10 w-full rounded-r-full rounded-l-full"
-      style={{
-        background: `url(${background})`,
-      }}
-    >
-        
-      <div className="hero">
-      
-        <div className="hero-content flex-col lg:flex-row">
-          
-          <div className="w-1/2">
-            <h1 className="text-4xl font-bold text-white">
-            Medical Device & Equipment
-            </h1>
-            <p className="py-6 font-semibold text-white">
-            Respiratory disease diagnostic at the first stage of infection period. Easy to use, CE approved, Fast delivery.Sample for free
-            </p>
-            <Link to=''><button className="btn btn-outline text-cyan-700 bg-white mr-6" data-aos-duration="1000">Contact<FaShoppingCart size='2rem'/></button></Link>
-            
-          </div>
-          <div className="w-1/2 ml-60 w-full">
-            <img
-              src={second}
-              className="lg:w-1/2 md:block hidden  rounded-lg shadow-2xl"
-            />
-          </div>
-        </div>
-      </div>
-    </section> */}
 
       <div className="" data-aos="fade-right">
         <section
-          className="mt-8 mb-10 rounded-l-full rounded-r-full"
-          style={{
-            background: `url(${background})`,
-          }}
+          className="mt-8 mb-10 rounded-l-full rounded-r-full bg-cover bg-center"
+          style={{ backgroundImage: `url(${background})` }}
         >
           <div className="hero">
-            <div className="hero-content flex-col lg:flex-row">
-              <div className="w-1/2">
+            <div className="hero-content flex flex-col lg:flex-row">
+              <div className="w-full lg:w-1/2">
                 <img
                   src={second}
-                  className="lg:w-1/2 md:block hidden  shadow-2xl"
+                  className="w-full lg:w-3/4 md:block hidden shadow-2xl mx-auto"
+                  alt="Description"
                 />
               </div>
-              <div className="w-1/2">
-                <h1 className="text-4xl font-bold text-white">
+              <div className="w-full lg:w-1/2 px-4 lg:px-8 text-center lg:text-left">
+                <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-4">
                   Medical Device & Equipment
                 </h1>
-                <p className="py-6 font-semibold text-white">
+                <p className="py-4 text-sm md:text-base font-semibold text-white">
                   Respiratory disease diagnostic at the first stage of infection
-                  period. Easy to use, CE approved, Fast delivery.Sample for
+                  period. Easy to use, CE approved, Fast delivery. Sample for
                   free
                 </p>
                 <Link to="">
@@ -128,24 +96,23 @@ const Products = () => {
 
       <div className="" data-aos="fade-left">
         <section
-          className="mt-8 mb-10 rounded-l-full rounded-r-full"
-          style={{
-            background: `url(${background})`,
-          }}
+          className="mt-8 mb-10 rounded-l-full rounded-r-full bg-cover bg-center"
+          style={{ backgroundImage: `url(${background})` }}
         >
           <div className="hero">
-            <div className="hero-content flex-col lg:flex-row">
-              <div className="w-1/2">
+            <div className="hero-content flex flex-col lg:flex-row">
+              <div className="w-full lg:w-1/2">
                 <img
                   src={man}
-                  className="lg:w-1/2 -pl-12 md:block hidden   shadow-2xl"
+                  className="w-full lg:w-3/4 -pl-4 md:block hidden shadow-2xl mx-auto"
+                  alt="Description"
                 />
               </div>
-              <div className="w-1/2">
-                <h1 className="text-4xl font-bold text-white">
+              <div className="w-full lg:w-1/2 px-4 lg:px-8 text-center lg:text-left">
+                <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-4">
                   Physiotherapy & Rehabilitation
                 </h1>
-                <p className="py-6 font-semibold text-white">
+                <p className="py-4 text-sm md:text-base font-semibold text-white">
                   Physiotherapy rehabilitation aims to optimise patient function
                   and well-being, to help integrate that patient back into their
                   chosen lifestyle activities whether at home, work or leisure
