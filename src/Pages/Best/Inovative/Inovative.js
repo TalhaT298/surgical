@@ -1,23 +1,80 @@
-import React from 'react';
+import React from "react";
 
 const Inovative = () => {
-    return (
-        <div className=''>
-        <div className="text-center mt-8 mb-6 py-6">
+  return (
+    <div className="">
+      <div className="text-center mt-8 mb-6 py-6">
         <h2 className="text-5xl font-bold text-cyan-700 mb-4">
-        Innovative Quality & Feature
+          Innovative Quality & Feature
         </h2>
         <p className="text-center uppercase text-xl space-x-3 font-bold text-teal-600 mb-4">
-        Discover our innovative surgical solutions with cutting-edge quality and advanced features
+          Discover our innovative surgical solutions with cutting-edge quality
+          and advanced features
         </p>
       </div>
-      <div>
+      {/* <div>
       <img className='' src="https://i.ibb.co/W69kJJM/Screenshot-36.png" alt="" />
-      </div>
-            
+      </div> */}
+      {/* new thing */}
+      <div class="flex">
+        {/* left side */}
+        <div className="w-2/5 bg-blue-500">
+          <div className="bg-gray-100 p-8">
+            <div className="max-w-4xl mx-auto">
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                  <div className="flex justify-center mb-4">
+                    <img
+                      src="https://via.placeholder.com/50"
+                      alt="Bodysuit Gown Icon"
+                      class="w-12 h-12"
+                    ></img>
+                  </div>
+                  <h2 className="text-xl font-bold mb-2">Bodysuit Gown</h2>
+                  <p className="text-gray-700">
+                    Est ante in nibh mauris. Ullamcorper morbi tincidunt ornare
+                    massa eget egestas purus.
+                  </p>
+                </div>
+
+                <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                  <div className="flex justify-center mb-4">
+                    <img
+                      src="https://via.placeholder.com/50"
+                      alt="3 Ply mask Icon"
+                      class="w-12 h-12"
+                    ></img>
+                  </div>
+                  <h2 className="text-xl font-bold mb-2">3 Ply mask</h2>
+                  <p className="text-gray-700">
+                    In cursus turpis massa tincidunt dui ut ornare lectus
+                    adipiscing elit duis tristique.
+                  </p>
+                </div>
+
+                <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                  <div className="flex justify-center mb-4">
+                    <img
+                      src="https://via.placeholder.com/50"
+                      alt="Surgical Cap Icon"
+                      class="w-12 h-12"
+                    ></img>
+                  </div>
+                  <h2 className="text-xl font-bold mb-2">Surgical Cap</h2>
+                  <p className="text-gray-700">
+                    Duis tristique sollicitudin nibh sit amet commodo nulla
+                    facilisi nullam sagittis.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        
-    );
+        <div class="w-1/5 bg-green-500">Middle Div</div>
+        <div class="w-2/5 bg-red-500">Right Div</div>
+      </div>
+    </div>
+  );
 };
 
 export default Inovative;
