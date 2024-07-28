@@ -33,7 +33,7 @@ const Products = () => {
               </div>
               <div className="w-full lg:w-1/2 px-4 lg:px-8 text-center lg:text-left">
                 <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-4">
-                  Consumable & Disposablee
+                  Consumable & Disposableee
                 </h1>
                 <p className="py-4 text-sm md:text-base font-semibold text-white">
                   Disposable products are a particular, extreme case of

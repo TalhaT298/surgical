@@ -95,7 +95,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <Link to="/" className="btn btn-ghost normal-case text-xl pb-20 w-40">
+        <Link to="/" className="btn btn-ghost  normal-case text-xl pb-20 w-40 ">
           <div className="flex">
             <img src={logo} alt="" />
             <p className="py-8 text-teal-600 font-bold">SurgicalSavvy</p>

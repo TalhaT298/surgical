@@ -11,7 +11,7 @@ const Banner = () => {
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img src={chair} alt="" className="lg:w-1/2 rounded-lg shadow-2xl" />
         <div>
-          <h1 className="text-5xl text-cyan-700 font-bold">Quality First</h1>
+          <h1 className="text-5xl text-cyan-700 font-bold ">Quality First</h1>
           <p className="py-10 font-semibold">
             We are a customer-driven company that sells the highest quality
             medical tools, supplies and German-manufactured surgical instruments
