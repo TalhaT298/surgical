@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import accuracy from "../../../src/assets/images/banner/accuracy.png";
 import Bacteria from "../../../src/assets/images/banner/Bacteria.png";
