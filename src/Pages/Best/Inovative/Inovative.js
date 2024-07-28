@@ -21,13 +21,13 @@ const Inovative = () => {
         <div className="w-2/5 bg-blue-500">
           <div className="bg-gray-100 p-8">
             <div className="max-w-4xl mx-auto">
-              <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div class="grid grid-rows-1 md:grid-rows-3 gap-8">
                 <div className="bg-white p-6 rounded-lg shadow-md text-center">
                   <div className="flex justify-center mb-4">
                     <img
                       src="https://via.placeholder.com/50"
                       alt="Bodysuit Gown Icon"
-                      class="w-12 h-12"
+                      className="w-12 h-12"
                     ></img>
                   </div>
                   <h2 className="text-xl font-bold mb-2">Bodysuit Gown</h2>
@@ -42,7 +42,7 @@ const Inovative = () => {
                     <img
                       src="https://via.placeholder.com/50"
                       alt="3 Ply mask Icon"
-                      class="w-12 h-12"
+                      className="w-12 h-12"
                     ></img>
                   </div>
                   <h2 className="text-xl font-bold mb-2">3 Ply mask</h2>
@@ -57,7 +57,7 @@ const Inovative = () => {
                     <img
                       src="https://via.placeholder.com/50"
                       alt="Surgical Cap Icon"
-                      class="w-12 h-12"
+                      className="w-12 h-12"
                     ></img>
                   </div>
                   <h2 className="text-xl font-bold mb-2">Surgical Cap</h2>
@@ -70,8 +70,60 @@ const Inovative = () => {
             </div>
           </div>
         </div>
-        <div class="w-1/5 bg-green-500">Middle Div</div>
-        <div class="w-2/5 bg-red-500">Right Div</div>
+        <div className="w-1/5 bg-green-500">Middle Div</div>
+        {/* right side */}
+        <div className="w-2/5 bg-red-500">
+        <div className="bg-gray-100 p-8">
+            <div className="max-w-4xl mx-auto">
+              <div class="grid grid-rows-1 md:grid-rows-3 gap-8">
+                <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                  <div className="flex justify-center mb-4">
+                    <img
+                      src="https://via.placeholder.com/50"
+                      alt="Bodysuit Gown Icon"
+                      className="w-12 h-12"
+                    ></img>
+                  </div>
+                  <h2 className="text-xl font-bold mb-2">Bodysuit Gown</h2>
+                  <p className="text-gray-700">
+                    Est ante in nibh mauris. Ullamcorper morbi tincidunt ornare
+                    massa eget egestas purus.
+                  </p>
+                </div>
+
+                <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                  <div className="flex justify-center mb-4">
+                    <img
+                      src="https://via.placeholder.com/50"
+                      alt="3 Ply mask Icon"
+                      className="w-12 h-12"
+                    ></img>
+                  </div>
+                  <h2 className="text-xl font-bold mb-2">3 Ply mask</h2>
+                  <p className="text-gray-700">
+                    In cursus turpis massa tincidunt dui ut ornare lectus
+                    adipiscing elit duis tristique.
+                  </p>
+                </div>
+
+                <div className="bg-white p-6 rounded-lg shadow-md text-center">
+                  <div className="flex justify-center mb-4">
+                    <img
+                      src="https://via.placeholder.com/50"
+                      alt="Surgical Cap Icon"
+                      className="w-12 h-12"
+                    ></img>
+                  </div>
+                  <h2 className="text-xl font-bold mb-2">Surgical Cap</h2>
+                  <p className="text-gray-700">
+                    Duis tristique sollicitudin nibh sit amet commodo nulla
+                    facilisi nullam sagittis.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
