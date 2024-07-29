@@ -28,11 +28,11 @@ const Glasses = () => {
         <GlassCard key={glass._id} glass={glass}></GlassCard>
       ))}
     </div>
-    <div className="text-center pt-6 pb-6">
+    <div className="text-center pt-8 pb-8 text-white">
       <Link to="/shopmore">
-        <button className="btn btn-outline hover:bg-teal-600 bg-cyan-700 text-white">
-          <FaShoppingCart className="" size="2rem" />
-          SHOP MORE
+        <button className="btn bg-cyan-700 hover:bg-teal-600 btn-wide glass">
+          <FaShoppingCart className="text-white" size="2rem" />
+          <span className="text-white">SHOP MORE</span>
         </button>
       </Link>
     </div>
