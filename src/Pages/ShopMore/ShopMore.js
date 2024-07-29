@@ -68,52 +68,53 @@ const ShopMore = () => {
       {/* 1st phase finish */}
 
       {/* 2nd phase start */}
-      <div className="py-10" data-aos="fade-up">
+      <div className="py-10" data-aos="fade-up"
+     data-aos-duration="3000">
       <div class="flex justify-center space-x-10 p-8">
         <div class="text-center">
-            <div class="w-32 h-32 mx-auto mb-2 bg-blue-100 rounded-full flex items-center justify-center" data-aos="fade-up">
+            <div class="w-32 h-32 mx-auto mb-2 bg-blue-100 rounded-full flex items-center justify-center">
                 <img src={c1} className="rounded-full" alt="Surgical Mask"></img>
             </div>
             <p class="text-sm font-bold">Surgical Mask</p>
         </div>
         <div class="text-center">
-            <div class="w-32 h-32 mx-auto mb-2 bg-blue-100 rounded-full flex items-center justify-center" data-aos="fade-up">
+            <div class="w-32 h-32 mx-auto mb-2 bg-blue-100 rounded-full flex items-center justify-center">
                 <img src={c2} className="rounded-full" alt="Safety Guard"></img>
             </div>
             <p class="text-sm font-bold">Safety Guard</p>
         </div>
         <div class="text-center">
-            <div class="w-32 h-32 mx-auto mb-2 bg-blue-100 rounded-full flex items-center justify-center" data-aos="fade-up">
+            <div class="w-32 h-32 mx-auto mb-2 bg-blue-100 rounded-full flex items-center justify-center">
                 <img src={c3} className="rounded-full" alt="Pharmacy"></img>
             </div>
             <p class="text-sm font-bold">Pharmacy</p>
         </div>
         <div class="text-center">
-            <div class="w-32 h-32 mx-auto mb-2 bg-blue-100 rounded-full flex items-center justify-center" data-aos="fade-up">
+            <div class="w-32 h-32 mx-auto mb-2 bg-blue-100 rounded-full flex items-center justify-center">
                 <img src={c4} className="rounded-full" alt="Nutritions"></img>
             </div>
             <p class="text-sm font-bold">Nutritions</p>
         </div>
         <div class="text-center">
-            <div class="w-32 h-32 mx-auto mb-2 bg-blue-100 rounded-full flex items-center justify-center" data-aos="fade-up">
+            <div class="w-32 h-32 mx-auto mb-2 bg-blue-100 rounded-full flex items-center justify-center">
                 <img src={c5} className="rounded-full" alt="Medkits"></img>
             </div>
             <p class="text-sm font-bold">Medkits</p>
         </div>
         <div class="text-center">
-            <div class="w-32 h-32 mx-auto mb-2 bg-blue-100 rounded-full flex items-center justify-center" data-aos="fade-up">
+            <div class="w-32 h-32 mx-auto mb-2 bg-blue-100 rounded-full flex items-center justify-center">
                 <img src={c6} className="rounded-full" alt="Medicine"></img>
             </div>
             <p class="text-sm font-bold">Medicine</p>
         </div>
         <div class="text-center">
-            <div class="w-32 h-32 mx-auto mb-2 bg-blue-100 rounded-full flex items-center justify-center" data-aos="fade-up">
+            <div class="w-32 h-32 mx-auto mb-2 bg-blue-100 rounded-full flex items-center justify-center">
                 <img src={c7} className="rounded-full" alt="Hand Gloves"></img>
             </div>
             <p class="text-sm font-bold">Hand Gloves</p>
         </div>
         <div class="text-center">
-            <div class="w-32 h-32 mx-auto mb-2 bg-blue-100 rounded-full flex items-center justify-center" data-aos="fade-up">
+            <div class="w-32 h-32 mx-auto mb-2 bg-blue-100 rounded-full flex items-center justify-center">
                 <img src={c8} className="rounded-full" alt="Equipments"></img>
             </div>
             <p class="text-sm font-bold">Equipments</p>
