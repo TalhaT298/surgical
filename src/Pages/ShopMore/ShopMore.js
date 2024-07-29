@@ -13,6 +13,14 @@ import b9 from "../../../src/assets/images/banner/29.png";
 import b10 from "../../../src/assets/images/banner/30.png";
 import b11 from "../../../src/assets/images/banner/31.png";
 import b12 from "../../../src/assets/images/banner/32.png";
+import c1 from "../../../src/assets/images/banner/41.png";
+import c2 from "../../../src/assets/images/banner/42.png";
+import c3 from "../../../src/assets/images/banner/43.png";
+import c4 from "../../../src/assets/images/banner/44.png";
+import c5 from "../../../src/assets/images/banner/45.png";
+import c6 from "../../../src/assets/images/banner/46.png";
+import c7 from "../../../src/assets/images/banner/47.png";
+import c8 from "../../../src/assets/images/banner/48.png";
 const products = [
   { id: 1, image: b1, name: 'Ankel Brace', price: 11 },
   { id: 2, image: b2, name: 'Urin Bags', price: 13 },
@@ -31,6 +39,7 @@ const ShopMore = () => {
   return (
     <div>
       <Link to="shopmore"></Link>
+      {/* 1st phase done */}
       <div className="flex flex-col justify-center items-center px-4 md:px-8 lg:px-16">
         <div className="py-8 text-center">
           <h2 className="text-5xl font-bold text-cyan-700 mb-4">Shop More!</h2>
@@ -56,6 +65,62 @@ const ShopMore = () => {
           ))}
         </div>
       </div>
+      {/* 1st phase finish */}
+
+      {/* 2nd phase start */}
+      <div className="py-10" data-aos="fade-up">
+      <div class="flex justify-center space-x-10 p-8">
+        <div class="text-center">
+            <div class="w-32 h-32 mx-auto mb-2 bg-blue-100 rounded-full flex items-center justify-center" data-aos="fade-up">
+                <img src={c1} className="rounded-full" alt="Surgical Mask"></img>
+            </div>
+            <p class="text-sm font-bold">Surgical Mask</p>
+        </div>
+        <div class="text-center">
+            <div class="w-32 h-32 mx-auto mb-2 bg-blue-100 rounded-full flex items-center justify-center" data-aos="fade-up">
+                <img src={c2} className="rounded-full" alt="Safety Guard"></img>
+            </div>
+            <p class="text-sm font-bold">Safety Guard</p>
+        </div>
+        <div class="text-center">
+            <div class="w-32 h-32 mx-auto mb-2 bg-blue-100 rounded-full flex items-center justify-center" data-aos="fade-up">
+                <img src={c3} className="rounded-full" alt="Pharmacy"></img>
+            </div>
+            <p class="text-sm font-bold">Pharmacy</p>
+        </div>
+        <div class="text-center">
+            <div class="w-32 h-32 mx-auto mb-2 bg-blue-100 rounded-full flex items-center justify-center" data-aos="fade-up">
+                <img src={c4} className="rounded-full" alt="Nutritions"></img>
+            </div>
+            <p class="text-sm font-bold">Nutritions</p>
+        </div>
+        <div class="text-center">
+            <div class="w-32 h-32 mx-auto mb-2 bg-blue-100 rounded-full flex items-center justify-center" data-aos="fade-up">
+                <img src={c5} className="rounded-full" alt="Medkits"></img>
+            </div>
+            <p class="text-sm font-bold">Medkits</p>
+        </div>
+        <div class="text-center">
+            <div class="w-32 h-32 mx-auto mb-2 bg-blue-100 rounded-full flex items-center justify-center" data-aos="fade-up">
+                <img src={c6} className="rounded-full" alt="Medicine"></img>
+            </div>
+            <p class="text-sm font-bold">Medicine</p>
+        </div>
+        <div class="text-center">
+            <div class="w-32 h-32 mx-auto mb-2 bg-blue-100 rounded-full flex items-center justify-center" data-aos="fade-up">
+                <img src={c7} className="rounded-full" alt="Hand Gloves"></img>
+            </div>
+            <p class="text-sm font-bold">Hand Gloves</p>
+        </div>
+        <div class="text-center">
+            <div class="w-32 h-32 mx-auto mb-2 bg-blue-100 rounded-full flex items-center justify-center" data-aos="fade-up">
+                <img src={c8} className="rounded-full" alt="Equipments"></img>
+            </div>
+            <p class="text-sm font-bold">Equipments</p>
+        </div>
+    </div>
+      </div>
+      {/* 2nd phase finish */}
     </div>
   );
 };
