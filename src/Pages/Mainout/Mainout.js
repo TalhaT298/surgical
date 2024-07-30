@@ -57,7 +57,7 @@ const Mainout = () => {
           </div>
         </div>
 
-        {/* image end */}
+         
 
         <h2 className="text-4xl">Your order: {title}</h2>
         <h2 className="text-3xl py-2">Price: {price}</h2>
