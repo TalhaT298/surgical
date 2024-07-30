@@ -87,8 +87,8 @@ import React from 'react';
 
 const Logini = () => {
   return (
-    <div>
-      <div className="w-full max-w-md rounded-lg bg-white px-10 pb-10 pt-8 shadow-md dark:bg-zinc-900">
+    <div className='py-10 flex justify-center items-center'>
+      <div className="w-full max-w-3xl rounded-lg bg-white px-10 pb-10 pt-8 shadow-md dark:bg-zinc-900">
             <div className="mb-6">
                 <h2 className="text-center text-3xl font-semibold tracking-tight">Contact Us</h2>
                 <p className="text-center text-sm text-zinc-500 dark:text-zinc-400">We&apos;d love to hear from you!</p>
