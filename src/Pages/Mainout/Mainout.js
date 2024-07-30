@@ -46,7 +46,7 @@ const Mainout = () => {
   return (
     <div>
       <form onSubmit={handlePlaceOrder}>
-        {/* image add */}
+         
 
         <div className="carousel w-full">
           <div className="carousel-item relative py-6 w-full">
