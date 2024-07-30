@@ -93,7 +93,7 @@ const Logini = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+      .sendForm('service_ryk1ydk', 'template_8306npz', form.current, 'Y8-44Z6hmp2exw81g')
       .then(
         () => {
           console.log('SUCCESS!');
